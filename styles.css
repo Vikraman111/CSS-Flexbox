@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  border: 2px solid #ccc;
+  height: 200px;
+  width: 100%;
+  margin-top: 20px;
+  transition: justify-content 0.5s ease;
+}
+
+.box {
+  background-color: lightblue;
+  border: 1px solid #000;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.dropdown {
+  margin: 20px;
+}

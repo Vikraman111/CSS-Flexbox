@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Justify-Content Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>Flexbox Justify-Content Demonstration</h1>
+
+    <label for="justify-content" class="dropdown"
+      >Select Justify-Content:</label
+    >
+    <select
+      id="justify-content"
+      class="dropdown"
+      onchange="changeJustifyContent()"
+    >
+      <option value="flex-start">flex-start</option>
+      <option value="flex-end">flex-end</option>
+      <option value="center">center</option>
+      <option value="space-between">space-between</option>
+      <option value="space-around">space-around</option>
+      <option value="space-evenly">space-evenly</option>
+    </select>
+
+    <div class="container" id="flex-container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+    </div>
+  </body>
+</html>
